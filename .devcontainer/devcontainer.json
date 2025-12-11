@@ -1,0 +1,14 @@
+{
+  "name": "my-scala-dev",
+  "dockerComposeFile": "../docker/docker-compose.yml",
+  "service": "my-scala-dev",
+  "workspaceFolder": "/home/dev-user/app",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "scala-lang.scala",
+        "scalameta.metals"
+      ]
+    }
+  }
+}
